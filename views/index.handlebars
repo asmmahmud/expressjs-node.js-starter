@@ -1,0 +1,14 @@
+<div class="row justify-content-center">
+    <div class="col">
+        <h1 class="page-title">Welcome to my node app</h1>
+        {{#if user}}
+            <div class="card">
+                <div class="card-body">
+                    {{user.first_name}} {{user.last_name}} <br>
+                    {{user.email}}
+                    {{user.date_of_birth}}
+                </div>
+            </div>
+        {{/if}}
+    </div>
+</div>

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Story Book App - Home Page</title>
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/custom.css">
+</head>
+<body>
+{{> _navbar}}
+<div class="container">
+    {{> _msg}}
+    {{> _errors}}
+</div>
+<main id="main-wrapper">
+    <div class="container">
+        {{{body}}}
+    </div>
+</main>
+<script src="/javascripts/jquery-3.2.1.min.js"></script>
+<script src="/javascripts/popper.min.js"></script>
+<script src="/javascripts/bootstrap.min.js"></script>
+<script src="/javascripts/custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body {
+    font: 14px "Roboto", Helvetica, Arial, sans-serif;
+}
+a {
+    color: #00B7FF;
+}
+#main-wrapper {
+    margin-top: 15px;
+}
+.login-block,
+.register-block {
+    padding: 0 15px 10px;
+    margin-bottom: 15px;
+}
+.login-block h2,
+.register-block h2 {
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+.login-block button[type=submit],
+.register-block button[type=submit] {
+    margin-top: 25px;
+}
